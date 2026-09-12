@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.drjhonatan00.mods.err422.mixin.fabric",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "TitleScreenFabricMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "ERROR422-fabric-refmap.json"
+}

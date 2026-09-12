@@ -1,0 +1,90 @@
+{
+  "mappings": {
+    "dev/drjhonatan00/mods/err422/mixin/common/DebugGuiMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;IIIZ)I": "Lnet/minecraft/class_332;method_51433(Lnet/minecraft/class_327;Ljava/lang/String;IIIZ)I",
+      "renderLines": "Lnet/minecraft/class_340;method_51745(Lnet/minecraft/class_332;Ljava/util/List;Z)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/GuiMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;blit(Lnet/minecraft/resources/ResourceLocation;IIIIII)V": "Lnet/minecraft/class_332;method_25302(Lnet/minecraft/class_2960;IIIIII)V",
+      "renderHeart": "Lnet/minecraft/class_329;method_37299(Lnet/minecraft/class_332;Lnet/minecraft/class_329$class_6411;IIIZZ)V",
+      "renderPlayerHealth": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/ImageButtonMixin": {
+      "renderWidget": "Lnet/minecraft/class_344;method_48579(Lnet/minecraft/class_332;IIF)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/LogoRendererMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;setColor(FFFF)V": "Lnet/minecraft/class_332;method_51422(FFFF)V",
+      "renderLogo(Lnet/minecraft/client/gui/GuiGraphics;IFI)V": "Lnet/minecraft/class_8020;method_48210(Lnet/minecraft/class_332;IFI)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/ResourceManagerMixin": {
+      "getResourceStack": "method_14489(Lnet/minecraft/class_2960;)Ljava/util/List;"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/ServerGamePacketListenerImplMixin": {
+      "detectRateSpam": "Lnet/minecraft/class_3244;method_43669()V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/ShapedRecipeMixin": {
+      "getResultItem": "Lnet/minecraft/class_1869;method_8110(Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/TitleScreenMixin": {
+      "Lnet/minecraft/client/renderer/PanoramaRenderer;render(FF)V": "Lnet/minecraft/class_766;method_3317(FF)V",
+      "Lnet/minecraft/client/renderer/texture/TextureManager;preload(Lnet/minecraft/resources/ResourceLocation;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_1060;method_18168(Lnet/minecraft/class_2960;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;",
+      "preloadResources": "Lnet/minecraft/class_442;method_18105(Lnet/minecraft/class_1060;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/WindowMixin": {
+      "setTitle": "Lnet/minecraft/class_1041;method_24286(Ljava/lang/String;)V"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/accessor/KeyMappingAccessor": {
+      "key": "field_1655:Lnet/minecraft/class_3675$class_306;"
+    },
+    "dev/drjhonatan00/mods/err422/mixin/common/accessor/LoadingOverlayAccessor": {
+      "LOGO_BACKGROUND_COLOR": "field_32249:I",
+      "LOGO_BACKGROUND_COLOR_DARK": "field_32250:I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/drjhonatan00/mods/err422/mixin/common/DebugGuiMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;IIIZ)I": "Lnet/minecraft/class_332;method_51433(Lnet/minecraft/class_327;Ljava/lang/String;IIIZ)I",
+        "renderLines": "Lnet/minecraft/class_340;method_51745(Lnet/minecraft/class_332;Ljava/util/List;Z)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/GuiMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;blit(Lnet/minecraft/resources/ResourceLocation;IIIIII)V": "Lnet/minecraft/class_332;method_25302(Lnet/minecraft/class_2960;IIIIII)V",
+        "renderHeart": "Lnet/minecraft/class_329;method_37299(Lnet/minecraft/class_332;Lnet/minecraft/class_329$class_6411;IIIZZ)V",
+        "renderPlayerHealth": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_332;)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/ImageButtonMixin": {
+        "renderWidget": "Lnet/minecraft/class_344;method_48579(Lnet/minecraft/class_332;IIF)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/LogoRendererMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;setColor(FFFF)V": "Lnet/minecraft/class_332;method_51422(FFFF)V",
+        "renderLogo(Lnet/minecraft/client/gui/GuiGraphics;IFI)V": "Lnet/minecraft/class_8020;method_48210(Lnet/minecraft/class_332;IFI)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/ResourceManagerMixin": {
+        "getResourceStack": "method_14489(Lnet/minecraft/class_2960;)Ljava/util/List;"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/ServerGamePacketListenerImplMixin": {
+        "detectRateSpam": "Lnet/minecraft/class_3244;method_43669()V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/ShapedRecipeMixin": {
+        "getResultItem": "Lnet/minecraft/class_1869;method_8110(Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/TitleScreenMixin": {
+        "Lnet/minecraft/client/renderer/PanoramaRenderer;render(FF)V": "Lnet/minecraft/class_766;method_3317(FF)V",
+        "Lnet/minecraft/client/renderer/texture/TextureManager;preload(Lnet/minecraft/resources/ResourceLocation;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_1060;method_18168(Lnet/minecraft/class_2960;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;",
+        "preloadResources": "Lnet/minecraft/class_442;method_18105(Lnet/minecraft/class_1060;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/WindowMixin": {
+        "setTitle": "Lnet/minecraft/class_1041;method_24286(Ljava/lang/String;)V"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/accessor/KeyMappingAccessor": {
+        "key": "field_1655:Lnet/minecraft/class_3675$class_306;"
+      },
+      "dev/drjhonatan00/mods/err422/mixin/common/accessor/LoadingOverlayAccessor": {
+        "LOGO_BACKGROUND_COLOR": "field_32249:I",
+        "LOGO_BACKGROUND_COLOR_DARK": "field_32250:I"
+      }
+    }
+  }
+}

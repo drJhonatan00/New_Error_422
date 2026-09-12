@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.drjhonatan00.mods.err422.mixin.common",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ResourceManagerMixin",
+    "ServerGamePacketListenerImplMixin",
+    "ShapedRecipeMixin"
+  ],
+  "client": [
+    "AbstractWidgetMixin",
+    "DebugGuiMixin",
+    "GuiMixin",
+    "ImageButtonMixin",
+    "LogoRendererMixin",
+    "LogoTextureMixin",
+    "TitleScreenMixin",
+    "WindowMixin",
+    "accessor.KeyMappingAccessor",
+    "accessor.LoadingOverlayAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "ERROR422-common-refmap.json"
+}

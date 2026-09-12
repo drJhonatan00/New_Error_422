@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "error422",
+  "version": "0.3.0",
+  "name": "ERROR 422",
+  "description": "ERROR 422 is the scariest version of Minecraft.",
+  "authors": [
+    "XyperCode"
+  ],
+  "contact": {
+    "website": "https://github.com/drJhonatan00",
+    "repo": "https://github.com/drJhonatan00/New_Error_422",
+    "issues": "https://github.com/drJhonatan00/New_Error_422/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.drjhonatan00.mods.err422.fabric.ERROR422Fabric"
+    ],
+    "client": [
+      "dev.drjhonatan00.mods.err422.fabric.ERROR422FabricClient"
+    ]
+  },
+  "mixins": [
+    "error422.mixins.json",
+    "error422-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "minecraft": "1.20.1",
+    "drjhonatan00lib": ">=1.5.0",
+    "architectury": ">=9.1",
+    "forgeconfigapiport": "*"
+  }
+}
